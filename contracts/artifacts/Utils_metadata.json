@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_a",
+						"type": "string"
+					},
+					{
+						"name": "_b",
+						"type": "string"
+					}
+				],
+				"name": "compare",
+				"outputs": [
+					{
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_a",
+						"type": "string"
+					},
+					{
+						"name": "_b",
+						"type": "string"
+					}
+				],
+				"name": "equal",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/utils.sol": "Utils"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/utils.sol": {
+			"keccak256": "0x23f156d74973c8626e2ad3d926f4eed6268cb0d0b6b968416cb463ce8bbb2bbc",
+			"urls": [
+				"bzzr://2e36d180e8bddedf61f40f138dd0106effe6146f5496c187a90a470a75293983"
+			]
+		}
+	},
+	"version": 1
+}
